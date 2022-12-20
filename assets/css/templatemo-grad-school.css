@@ -79,10 +79,28 @@ https://templatemo.com/tm-557-grad-school
     padding: 12px 20px;
     display: inline-block;
     outline: none;
+    transition: all 0.3s ease;
+  }
+
+  .main-button a:hover {
+    background-color: #fff;
+    color: #f5a425;
+  }
+
+  .main-button a:active {
+    opacity: 0.7;
   }
 
   a.menu-link {
     display: none;
+  }
+
+  .main-header .logo a:hover em {
+    color: #fff;
+  }
+
+  .main-header .logo a:active {
+    opacity: 0.7;
   }
 
   @media screen and (max-width: 950px) {
@@ -190,11 +208,12 @@ https://templatemo.com/tm-557-grad-school
   }
 
   .main-header .logo a {
-    font-size: 36px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 800;
     color: #fff;
   }
+
 
   .main-header .logo a em {
     font-style: normal;
@@ -287,6 +306,10 @@ https://templatemo.com/tm-557-grad-school
   .main-nav li:hover a,
   .main-nav li.active a {
     border: 2px solid #f5a425;
+  }
+
+  .main-nav li:active {
+    opacity: 0.7;
   }
 
   @media (max-width: 950px) {
@@ -1590,6 +1613,16 @@ https://templatemo.com/tm-557-grad-school
     outline: none;
     box-shadow: none;
     border: none;
+    transition: all 0.3s;
+  }
+
+  section.contact form button:hover {
+    background-color: #fff;
+    color: #f5a425;
+  }
+
+  section.contact form button:active {
+    opacity: 0.7;
   }
 
   /* Footer */
@@ -1635,6 +1668,7 @@ https://templatemo.com/tm-557-grad-school
 
     .main-header .logo {
       line-height: 73px;
+      margin-top: 5px;
     }
 
     .main-menu li {
