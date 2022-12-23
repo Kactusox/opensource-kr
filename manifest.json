@@ -1,0 +1,20 @@
+{
+     "name": "Ayaziy Ashiq Resurslar",
+     "short_name": "Ayaziy Ashiq Resurslar",
+     "start_url": ".",
+     "background_color": "#162238",
+     "theme_color": "#162238",
+     "display": "standalone",
+     "icons": [
+          {
+               "src": "assets/images/ayaziy-logo.png",
+               "sizes": "192x192",
+               "type": "image/png"
+          },
+          {
+               "src": "assets/images/ayaziy-logo.png",
+               "sizes": "512x512",
+               "type": "image/png"
+          }
+     ]
+}
