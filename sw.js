@@ -1,3 +1,5 @@
+// don't edit this file !!!!
+
 self.addEventListener("install", e => {
      e.waitUntil(
           caches.open("static").then(cache => {
@@ -13,3 +15,5 @@ self.addEventListener("fetch", e => {
           })
      );
 });
+
+// don't edit this file !!!!
